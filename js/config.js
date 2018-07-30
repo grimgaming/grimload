@@ -13,11 +13,11 @@ var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "The Cook Network";
+var l_serverName = "Grim Gaming";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = false;
+var l_bgVideo = true;
 
 /*Video background
 Avaiable options:
@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/glimmering.webm";
+var l_background = "backgrounds/videos/aurora.webm";
 
 /*(Image-background only)
 Place one or more images
@@ -85,10 +85,9 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
-	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
-	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
-	{youtube: "-7VeTkLKdDw", name: "Departure"}
+	{youtube: "XVgHofNs3pE", name: "Rameses B - Through The Mist"},
+	{youtube: "z7_2aMX8S7I", name: "Sorrow - Never Too Far"},
+	{youtube: "gDyDKzpWBY0", name: "MitiS - Born"}
 ];
 
 /*Random music order?*/
